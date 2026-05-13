@@ -1,0 +1,208 @@
+# ORIAOFEK
+
+## Datei: `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allianz ORIAOFEK</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #102542, #1b3b5f);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 30px;
+      text-align: center;
+      border-bottom: 3px solid gold;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: gold;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: rgba(255,255,255,0.08);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: gold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    section h2 {
+      color: gold;
+      margin-bottom: 15px;
+    }
+
+    .members {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .member-card {
+      background: rgba(0,0,0,0.3);
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: rgba(0,0,0,0.4);
+      border-top: 2px solid gold;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: gold;
+      color: black;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: orange;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⚔ ORIAOFEK ⚔</h1>
+    <p>Si vis pacem para bellum</p>
+  </header>
+
+  <nav>
+    <a href="#about">About us</a>
+    <a href="#members">Members</a>
+    <a href="#rules">Rules</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About our Alliance</h2>
+    <p>
+      
+    Multilingual alliance of competitive players who stand together against anyone who tries to disturb our peace.
+
+    Anyone who is willing to work together with us is welcome.
+    </p>
+    <a class="btn" href="https://ikariam.gameforge.com" target="_blank">
+      Play Ikariam now
+    </a>
+  </section>
+
+  <section id="members">
+    <h2>Our members</h2>
+    <div class="members">
+      <div class="member-card">
+        <h3>oriashami</h3>
+        <p>Leader, Interior Minister</p>
+      </div>
+
+      <div class="member-card">
+        <h3>Aiyeh</h3>
+        <p>Diplomat</p>
+      </div>
+    </div>
+
+      <div class="member-card">
+        <h3>king david</h3>
+        <p>General</p>
+      </div>
+
+      <div class="member-card">
+        <h3>Luffytaro</h3>
+        <p>Directors</p>
+      </div>
+    </div>
+
+      <div class="member-card">
+        <h3>Odysseus-0629</h3>
+        <p>Member</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="rules">
+    <h2>Rules (Yes, we have them)</h2>
+    <ul>
+
+
+      <li>I    Be active</li>
+      <li>II   If you disappear for too long, we assume you got captured by barbarians</li>
+      <li>III  No stealing from allies</li>
+      <li>IV   We already suffer enough from enemies</li>
+      <li>V    Help in wars</li>
+      <li>VI   Even if you lose — lose with style</li>
+      <li>VII  Respect leaders</li>
+      <li>VIII We are always right (even when we are not)</li>
+      <li></li>
+      <li>DO NOT GET RAIDED</li>
+      <li>ASK FOR HELP AND WE HAVE YOUR BACK</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Message any of our members
+    </p>
+  </section>
+
+  <footer>
+    <p></p>
+  </footer>
+
+</body>
+</html>
+```
